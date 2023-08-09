@@ -1,0 +1,20 @@
+{
+  "hosting": {
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "stripe": {
+      "apiKey": "pk_test_51NEuGzSIhIcfHwEyCIVEmY2jQxuObxWnyWFKG1DnBjutAz6B7FTasqn5tmfmbMpBj0z6kE0IDv8QXxAZXadWOfVM00umL7Rykl"
+    },
+    
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
